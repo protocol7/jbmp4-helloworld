@@ -20,7 +20,6 @@
 		<mapping resource="jbpm.execution.hbm.xml" />
 		<mapping resource="jbpm.history.hbm.xml" />
 		<mapping resource="jbpm.task.hbm.xml" />
-		<mapping resource="jbpm.jpdl.hbm.xml" />
 		<mapping resource="jbpm.identity.hbm.xml" />
 
 	</session-factory>

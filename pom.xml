@@ -7,7 +7,7 @@
 	<dependency>
 		<groupId>org.jbpm.jbpm4</groupId>
 		<artifactId>jbpm-jpdl</artifactId>
-		<version>4.0.CR1</version>
+		<version>4.0</version>
 	</dependency>
     <dependency>
       <groupId>hsqldb</groupId>
@@ -15,4 +15,18 @@
       <version>1.8.0.7</version>
     </dependency>
   </dependencies>
+  
+  	<repositories>
+		<repository>
+			<id>jboss</id>
+			<url>http://repository.jboss.com/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+  
 </project>
