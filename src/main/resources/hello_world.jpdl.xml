@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process name="helloWorld" xmlns="http://jbpm.org/4.0/jpdl">
+	<start g="24,72,80,40">
+		<transition to="printHelloWorld"/>
+	</start>
+	<java class="be.jorambarrez.jbpm4.helloworld.Printer" method="printHelloWorld" name="printHelloWorld" g="132,72,138,40">
+		<transition to="theEnd"/>
+	</java>
+	<end name="theEnd" g="339,70,80,40"/>
+</process>

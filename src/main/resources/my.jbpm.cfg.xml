@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jbpm-configuration>
+	<import resource="jbpm.default.cfg.xml"/>
+	<import resource="jbpm.tx.hibernate.cfg.xml"/>
+	<import resource="jbpm.jpdl.cfg.xml"/>
+</jbpm-configuration>
