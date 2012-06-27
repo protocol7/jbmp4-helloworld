@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+    <!-- APPENDERS -->
+
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out" />
+        <param name="Threshold" value="TRACE" />
+
+        <layout class="org.apache.log4j.PatternLayout">
+            <!-- The default pattern: Date Priority [Category] Message\n -->
+            <param name="ConversionPattern"
+                value="%-5p [%d{EEE MMM d HH:mm:ss z yyyy:}]  %c : %m%n" />
+        </layout>
+    </appender>
+
+    <root>
+        <priority value="TRACE" />
+    </root>
+
+</log4j:configuration>
